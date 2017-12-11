@@ -54,11 +54,11 @@ header {
     overflow: hidden;
 }
 .col {
-    outline: 1px solid black;
     width: 50%;
     float: left;
     padding: 1%;
-    height: 350px;
+    height: 300px;
+    
 
 }
 .col img {
@@ -66,13 +66,14 @@ header {
     width: 70%;
     height: 100%;
     border-radius: 160px;
+    margin-top: 3%;
 }
 .row-2 .imagen {
     margin-left: 10%;
 } 
 .texto {
     padding-top: 7%;
-    padding-left: 5%;
+    padding-left: 6%;
 }
 footer {
     padding: 2%;
@@ -82,5 +83,17 @@ footer {
     color: #fff;
 }
 .texto h2 {
-    font-size: 35px;
+    font-size: 38px;
 }
+ @media (max-width: 600px) {
+    .col {
+        width: 100%;
+    }
+        
+} 
+@media (max-width: 768px) {
+    .col img {
+        margin-top: 20%;
+    }
+        
+} 
